@@ -84,4 +84,5 @@ Newsletter communication includes:
 ### Project Status
 ✔ Professional showcase project    
 ✔ Ideal as MVP or commercial base 
+
 ❌ Production-ready with customization 
