@@ -53,23 +53,23 @@ Newsletter communication includes:
 
 ---
 
-### Technology Stack (Proposed)
+### Technologies Used
+
 **Frontend**
-- React / Next.js
+- React (Vite)
 - HTML5 / CSS3
-- Tailwind CSS or Bootstrap
+- Bootstrap 5
 
 **Backend**
 - Node.js
-- Express.js
+- Express.js (API for contact form handling)
 
-**Database**
-- MongoDB (MongoDB Atlas)
+**Services**
+- EmailJS (email sending from the contact form)
+- Netlify (frontend deployment)
 
-**Deployment & Services**
-- Vercel / Netlify
-- Render / Railway
-- Email services (SendGrid / MailerLite / SMTP)
+### Technical Rationale
+The stack was chosen to keep the project simple, performant, and aligned with the nature of a conversion-oriented landing page, avoiding unnecessary complexity such as databases or authentication systems.
 
 ---
 
