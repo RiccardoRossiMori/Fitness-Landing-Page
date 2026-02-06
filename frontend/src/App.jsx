@@ -1,6 +1,13 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import Navbar from './components/layout/Navbar'
+import Hero from './components/sections/Hero'
+import Services from './components/sections/Services'
+import About from './components/sections/About'
+import Testimonials from './components/sections/Testimonials'
+import Contact from './components/sections/Contact'
+import Footer from './components/layout/Footer'
 //import './App.css' 
 /* 
 the import statement above is commented out to prevent an error related to missing CSS file.
@@ -8,9 +15,15 @@ the import statement above is commented out to prevent an error related to missi
 
 function App() {
   return (
-    <div className="container">
-      <h1 className="mt-5">Fitness Landing Page</h1>
-    </div>
+    <>
+      <Navbar />
+      <Hero />
+      <Services />
+      <About />
+      <Testimonials />
+      <Contact />
+      <Footer />
+    </>
   );
 }
 
