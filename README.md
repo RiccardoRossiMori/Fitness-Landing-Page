@@ -1,88 +1,16 @@
-# Fitness Landing Page
-Fitness landing page, possible web app in the future
+# React + Vite
 
-🌍 Available languages:
-- 🇮🇹 Italiano → [README.it.md](README.it.md)
-- 🇧🇷 Português (Brasil) → [README.pt-BR.md](README.pt-BR.md)
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-### Overview
-Fitness Studio Platform is a **modern, growth-oriented web solution** designed for gyms and fitness studios that want to **attract new members**, improve client communication, and build a **professional and scalable digital presence**.
+Currently, two official plugins are available:
 
-It starts as a **high-conversion landing page**, but it is architected from day one to evolve into a **full-featured web application**.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
----
+## React Compiler
 
-### Business Value
-- Increased memberships through clear and effective communication
-- Direct communication channel via email
-- Centralized promotions, news, and updates
-- Solid foundation for future management features
-- Strong and professional online branding
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
----
+## Expanding the ESLint configuration
 
-### Core Features
-- Responsive and modern landing page
-- Gym and services presentation
-- Opening hours
-- Contact section
-- Newsletter subscription
-- Lead collection for potential clients
-
-Newsletter communication includes:
-- Holidays and closures
-- Promotions and special offers
-- New classes and activities
-- Equipment and service updates
-
----
-
-### Advanced Features (Roadmap)
-- Role-based authentication system:
-  - User
-  - Staff
-  - Administrator
-- Staff access via unique private code
-- Content management system:
-  - News
-  - Events
-  - Informational articles
-  - Photos and videos
-- Dynamic homepage content
-- QR Code integration for quick access and future extensions
-
----
-
-### Technologies Used
-
-**Frontend**
-- React (Vite)
-- HTML5 / CSS3
-- Bootstrap 5
-
-**Backend**
-- Node.js
-- Express.js (API for contact form handling)
-
-**Services**
-- EmailJS (email sending from the contact form)
-- Netlify (frontend deployment)
-
-### Technical Rationale
-The stack was chosen to keep the project simple, performant, and aligned with the nature of a conversion-oriented landing page, avoiding unnecessary complexity such as databases or authentication systems.
-
----
-
-### Target Users
-- Gyms and fitness studios
-- Personal trainers
-- Sports centers
-- Developers looking for a scalable base project
-
----
-
-### Project Status
-✔ Professional showcase project    
-✔ Ideal as MVP or commercial base 
-
-❌ Production-ready with customization 
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

@@ -1,0 +1,25 @@
+{
+  "name": "fitness-landing-page",
+  "version": "1.0.0",
+  "description": "Fitness landing page, possible web app in the future",
+  "main": "index.js",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  },
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix frontend\" \"npm start --prefix backend\"",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RiccardoRossiMori/Fitness-Landing-Page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/RiccardoRossiMori/Fitness-Landing-Page/issues"
+  },
+  "homepage": "https://github.com/RiccardoRossiMori/Fitness-Landing-Page#readme"
+}
