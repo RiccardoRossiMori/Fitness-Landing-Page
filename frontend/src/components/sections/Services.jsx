@@ -1,6 +1,6 @@
 function Services() {
   return (
-    <section id="services" className="container py-5">
+    <section id="services" className="bg-secondary text-white py-5">
       <div className="container text-center">
         <h2 className="mb-4">Our Courses</h2>
         <div className="row">

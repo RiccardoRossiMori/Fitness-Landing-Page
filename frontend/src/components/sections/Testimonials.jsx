@@ -1,6 +1,6 @@
 function Testimonials() {
   return (
-    <section id="testimonials" className="py-5 text-center">
+    <section id="testimonials" className="bg-secondary text-white text-center">
       <div className="container">
         <h2 className="mb-4">What Our Clients Say</h2>
         <p className="fst-italic">"Changed my body in such a short time!"</p>

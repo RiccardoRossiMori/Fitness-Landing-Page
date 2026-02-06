@@ -1,7 +1,7 @@
 function Contact() {
   return (
 
-    <section id="contact" className="bg-dark text-white">
+    <section id="contact" className="bg-light text-dark">
       <div className="container">
         <h2 className="text-center mb-4">Start Your Transformation</h2>
 
