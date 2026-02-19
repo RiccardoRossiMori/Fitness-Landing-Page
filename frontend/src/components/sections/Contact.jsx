@@ -7,18 +7,43 @@ function Contact() {
 
         <div className="row justify-content-center">
           <div className="col-md-6">
-            {<form>
-              <input className="form-control mb-3" placeholder="Name" />
-              <input className="form-control mb-3" placeholder="Email" />
-              <textarea className="form-control mb-3" rows="4" placeholder="Message"></textarea>
+            <div className="card shadow-sm p-4 border-1">
+              {<form>
+                <input className="form-control mb-3" placeholder="Name" />
+                <input className="form-control mb-3" placeholder="Email" />
+                <textarea className="form-control mb-3" rows="4" placeholder="Message"></textarea>
 
-              <button className="btn btn-danger w-100">
-                Send Message
-              </button>
-            </form>
-            }
+                <button className="btn btn-danger w-100">
+                  Send Message
+                </button>
+              </form>
+              }
+            </div>
+          </div>
+        </div><div className="row mt-5">
+          <div className="col-md-6">
+            <h4>How to Reach Us</h4>
+            <p>
+              Near one of the most beautiful natural attractions in Italy:
+              Grotte di Frasassi.
+            </p>
+            <p>
+              Gola di Frasassi, 60040 Genga (AN), Italy
+            </p>
+          </div>
+
+          <div className="col-md-6">
+            <div className="ratio ratio-16x9">
+              <iframe
+                src="https://www.google.com/maps?q=Grotte+di+Frasassi&output=embed"
+                allowFullScreen=""
+                loading="lazy"
+                title="Grotte di Frasassi Map"
+              ></iframe>
+            </div>
           </div>
         </div>
+
       </div>
     </section>
   );
