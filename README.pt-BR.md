@@ -1,6 +1,10 @@
 # 🏋️‍♂️ Fitness Studio Platform
 **Landing Page & Scalable Digital Solution for Gyms and Fitness Studios**
 
+Site disponível no link: [https://fitness-landing-page-wine.vercel.app](https://fitness-landing-page-wine.vercel.app
+)
+
+
 ---~~~~
 
 ### Visão Geral
