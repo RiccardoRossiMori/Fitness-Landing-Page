@@ -57,18 +57,16 @@ Newsletter communication includes:
 
 ### Technologies Used
 
-**Frontend**
+*Frontend*
 - React (Vite)
 - HTML5 / CSS3
 - Bootstrap 5
 
-**Backend**
-- Node.js
-- Express.js (API for contact form handling)
+*Form Handling*
+- EmailJS (invio email lato client)
 
-**Services**
-- EmailJS (email sending from the contact form)
-- Netlify (frontend deployment)
+*Deploy*
+- Vercel
 
 ### Technical Rationale
 The stack was chosen to keep the project simple, performant, and aligned with the nature of a conversion-oriented landing page, avoiding unnecessary complexity such as databases or authentication systems.
