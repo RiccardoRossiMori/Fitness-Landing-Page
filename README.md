@@ -63,7 +63,7 @@ Newsletter communication includes:
 - Bootstrap 5
 
 *Form Handling*
-- EmailJS (invio email lato client)
+- EmailJS (sending email client side)
 
 *Deploy*
 - Vercel
