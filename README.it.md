@@ -59,18 +59,16 @@ La newsletter consente di comunicare:
 
 ### Tecnologie utilizzate
 
-**Frontend**
+*Frontend*
 - React (Vite)
 - HTML5 / CSS3
 - Bootstrap 5
 
-**Backend**
-- Node.js
-- Express.js (API per gestione form contatti)
+*Form Handling*
+- EmailJS (invio email lato client)
 
-**Servizi**
-- EmailJS (invio email dal form di contatto)
-- Netlify (deploy frontend)
+*Deploy*
+- Vercel
 
 ### Motivazioni tecniche
 Lo stack è stato scelto per mantenere il progetto semplice, performante e coerente con la natura di una landing page orientata alla conversione, evitando complessità non necessarie come database o autenticazione.
