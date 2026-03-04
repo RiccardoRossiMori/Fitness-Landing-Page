@@ -5,6 +5,10 @@
 
 ## 🇮🇹 Italiano
 
+Sito web disponibile al link: [https://fitness-landing-page-wine.vercel.app
+](https://fitness-landing-page-wine.vercel.app
+)
+
 ### Descrizione
 Fitness Studio Platform è una **soluzione web moderna e orientata alla crescita**, pensata per palestre e studi fitness che vogliono **acquisire nuovi iscritti**, migliorare la comunicazione con i clienti e costruire una **presenza digitale professionale e scalabile**.
 
