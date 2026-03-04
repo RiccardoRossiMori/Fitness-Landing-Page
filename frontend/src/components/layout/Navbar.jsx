@@ -1,6 +1,43 @@
+import { useEffect, useState } from "react";
+
 function Navbar() {
+  const [theme, setTheme] = useState("dark");
+
+  useEffect(() => {
+    const sections = document.querySelectorAll("section");
+    const navbar = document.querySelector(".navbar");
+
+    const handleScroll = () => {
+      const navbarHeight = navbar.offsetHeight;
+
+      let currentSection = null;
+
+      sections.forEach((section) => {
+        const rect = section.getBoundingClientRect();
+
+        if (rect.top <= navbarHeight && rect.bottom > navbarHeight) {
+          currentSection = section;
+        }
+      });
+
+      if (currentSection) {
+        const navTheme = currentSection.dataset.navbar;
+        if (navTheme) {
+          setTheme(navTheme);
+        }
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    handleScroll();
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
+    <nav className={`navbar navbar-expand-lg fixed-top ${theme === "light"
+      ? "navbar-light bg-light shadow-sm"
+      : "navbar-dark bg-transparent"}`}>
       <div className="container">
         <a className="navbar-brand fw-bold" href="#">Fitness Gym</a>
         <button className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">

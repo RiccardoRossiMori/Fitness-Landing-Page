@@ -13,6 +13,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -85,7 +87,7 @@ body {
 
 .hero-section {
   min-height: 100vh;
-  background-image: url('public/images/herobg.jpg');
+  background-image: url('/images/herobg.jpg');
   background-size: cover;
   background-position: center;
   position: relative;
